@@ -1,0 +1,195 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background: #e9e9e9;
+    font-family: 'Roboto-Regular', sans-serif;
+    color: #000;
+    margin: 0px;
+  }
+
+/* body:after {
+    content: "blah blah blah";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: #919191;
+    font-size: 10pt;
+} */
+
+/* Create two columns/boxes that floats next to each other, left one is navigation panel, right one is content */
+nav {
+    float: left;
+    width: 15%;
+    background: #393939;
+    height: 100vh;
+    /* min-height: 3000px; */
+}
+
+article {
+  float: right;
+  padding: 20px;
+  padding-top: 0;
+  width: 85%;
+  background-color: #eee;
+  margin: 0;
+  height: 100%;
+  min-height: 400px;
+}
+
+/* Style the navigation panel */
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.imgContain{
+  background-color: #393939;
+  height: 100px;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.profile-img {
+  height: 100%;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #BD5D38;
+}
+
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav {
+    position: fixed;
+    top: 0;
+  }
+}
+
+.nav-container ul li a {
+    display: block;
+    width: 100%;
+    color: #DEAE9C;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+nav ul li a.current {
+    background-color: green;
+    color: white;
+  }
+
+li a:hover:not(.current) {
+    background-color: #393939;
+    color: white;
+}
+
+/*general styling for body*/
+h1 {
+  font-weight: bold;
+}
+
+
+
+/*--------------style content-------------------------*/
+/*style social icons*/
+.social-icons a {
+	display: inline-block;
+	height: 3.5rem;
+	width: 3.5rem;
+	background-color: #495057;
+	color: #fff !important;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
+  margin: 0.1rem;
+  padding: 0px;
+}
+
+.social-icons a:hover {
+	background-color: #BD5D38;
+}
+
+/*style project section*/
+.proj-container {
+  display: flex;
+  /* background: green; */
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: center;
+  width: 100%;
+}
+
+.box>* {
+  margin: 10px;
+}
+
+.project-img-container {
+  position: relative;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.project-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+}
+
+.project-img-container:hover .project-img {
+  opacity: 0.3;
+}
+
+.project-img-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: black;
+  font-size: 16px;
+  padding: 10px 10px;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
