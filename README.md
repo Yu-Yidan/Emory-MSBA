@@ -1,1 +1,1 @@
-# This is the first attempt at creating personal website
+# Please find the resume in the url:
