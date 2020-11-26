@@ -25,38 +25,7 @@ body {
     font-size: 10pt;
 } */
 
-<<<<<<< Updated upstream
-/* Create two columns/boxes that floats next to each other, left one is navigation panel, right one is content */
-nav {
-    float: left;
-    width: 15%;
-    background: #393939;
-    height: 100vh;
-    /* min-height: 3000px; */
-}
 
-article {
-  float: right;
-  padding: 20px;
-  padding-top: 0;
-  width: 85%;
-  background-color: #eee;
-  margin: 0;
-  height: 100%;
-  min-height: 400px;
-}
-
-/* Style the navigation panel */
-.nav-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-}
-
-.imgContain{
-=======
 .about {
   overflow: hidden;
   background-color: white;
@@ -65,9 +34,7 @@ article {
   justify-content: flex-start;
 }
 
-
 .profile-imgContain{
->>>>>>> Stashed changes
   background-color: #393939;
   height: 100px;
   padding: 10px;
@@ -83,44 +50,6 @@ article {
   display: inline-block;
   padding: 0px;
   margin: 0px;
-}
-
-.nav-container ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #BD5D38;
-}
-
-/* Only stick if you can fit */
-@media (min-height: 300px) {
-  nav {
-    position: fixed;
-    top: 0;
-  }
-}
-
-.nav-container ul li a {
-    display: block;
-    width: 100%;
-    color: #DEAE9C;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-  }
-
-nav ul li a.current {
-    background-color: green;
-    color: white;
-  }
-
-li a:hover:not(.current) {
-    background-color: #393939;
-    color: white;
 }
 
 /*general styling for body*/
