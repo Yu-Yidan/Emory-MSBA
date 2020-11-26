@@ -35,22 +35,35 @@ body {
 }
 
 .profile-imgContain{
-  background-color: #393939;
-  height: 100px;
-  padding: 10px;
+  /* background-color: #393939; */
+  height: 200px;
+  padding: 0px;
   margin: 0;
-  width: 100%;
-  float: left;
-  text-align: center;
+  width: 50%;
+  /* float: left; */
+  text-align: right;
 }
+
 
 .profile-img {
   height: 100%;
-  border-radius: 20%;
+  border-radius: 50%;
   display: inline-block;
   padding: 0px;
   margin: 0px;
 }
+
+
+.profile-info{
+  /* background-color: #393939; */
+  height: 200px;
+  padding: 0px;
+  margin: 0;
+  width: 50%;
+  /* float: left; */
+  text-align: left;
+}
+
 
 /*general styling for body*/
 h1 {
