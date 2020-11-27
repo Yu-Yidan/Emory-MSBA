@@ -41,7 +41,7 @@ body {
 .about profile-imgContain {
   /* background-color: #393939; */
   height: 100%;
-  width: 50%;
+  width: 50vh;
   padding: 10px;
   margin: 0px;
   text-align: right;
@@ -50,8 +50,7 @@ body {
 
 .profile-img {
   height: 200px;
-  border: 5px solid black;
-  /* text-shadow: 0 0 3px black; */
+  border: 5px solid lightgray;
   border-radius: 50%;
   display: inline-block;
   padding: 10px;
@@ -61,6 +60,7 @@ body {
 
 .about profile-info {
   height: 100%;
+  width: 50vh;
   padding: 0px;
   margin: 0;
   text-align: left;
@@ -73,7 +73,10 @@ h1 {
   font-size: 20px;
 }
 
-
+.profile-info address li {
+  display: inline-block;
+  text-align: left;
+}
 /*-----------------------------------------------
 style about me section
 ------------------------------------------------*/
