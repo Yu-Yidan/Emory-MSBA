@@ -107,6 +107,8 @@ style education & skill section
   flex-direction: row;
   align-content: space-between;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .education {
