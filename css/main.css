@@ -121,6 +121,9 @@ style education & skill section
   background: white;
 }
 
+.education-img {
+  height: 10px;
+}
 /*-----------------------------------------------
 style project section
 ------------------------------------------------*/
