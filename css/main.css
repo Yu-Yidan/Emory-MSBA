@@ -61,12 +61,16 @@ h1 {
 }
 
 .profile-info address li {
-  display: inline-block;
   text-align: left;
 }
 
-.profile-info address li a {
+.profile-info address li i {
+  display: inline-block;
   width: 10px;
+}
+
+.profile-info address li p {
+  display: inline-block;
 }
 /*-----------------------------------------------
 style about me section
