@@ -15,18 +15,6 @@ body {
     padding: 0;
   }
 
-/* body:after {
-    content: "blah blah blah";
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    color: #919191;
-    font-size: 10pt;
-} */
-
-
 .about {
   height: 400px;
   overflow: hidden;
@@ -38,7 +26,7 @@ body {
   /* justify-content: flex-start; */
 }
 
-.about profile-imgContain {
+.about > profile-imgContain {
   /* background-color: #393939; */
   height: 100%;
   width: 50vh;
@@ -49,7 +37,7 @@ body {
 }
 
 .profile-img {
-  height: 200px;
+  height: 50%;
   border: 5px solid lightgray;
   border-radius: 50%;
   display: inline-block;
@@ -57,8 +45,7 @@ body {
   margin: 0px;
 }
 
-
-.about profile-info {
+.about > profile-info {
   height: 100%;
   width: 50vh;
   padding: 0px;
