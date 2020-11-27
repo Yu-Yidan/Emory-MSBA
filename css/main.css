@@ -12,6 +12,7 @@ body {
     font-family: 'Segoe UI';
     color: rgb(73, 80, 87);
     margin: 0px;
+    padding: 0;
   }
 
 /* body:after {
@@ -122,14 +123,9 @@ style education & skill section
   align-content: space-between;
 }
 
-.skills {
-  height: 400px;
-  width: 55%;
-  padding: 0;
-  margin: 0;
+.school {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
 }
 
 .education-img {
@@ -145,6 +141,19 @@ style education & skill section
   padding: 0;
   margin: 0;
 }
+
+.skills {
+  height: 400px;
+  width: 55%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+
+
 
 /*-----------------------------------------------
 style project section
