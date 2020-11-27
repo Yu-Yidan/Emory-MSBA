@@ -38,18 +38,17 @@ body {
   /* justify-content: flex-start; */
 }
 
-.profile-imgContain{
+.about > profile-imgContain {
   /* background-color: #393939; */
   height: 100%;
-  padding: 0px;
-  margin: 0;
   width: 50%;
-  /* float: left; */
+  padding: 10px;
+  margin: 0px;
   text-align: right;
 }
 
 .profile-img {
-  height: 80%;
+  height: 200px;
   border: 5px solid gray;
   text-shadow: 0 0 3px black;
   border-radius: 50%;
@@ -59,13 +58,10 @@ body {
 }
 
 
-.profile-info{
-  /* background-color: #393939; */
+.about > profile-info {
   height: 100%;
   padding: 0px;
   margin: 0;
-  width: 50%;
-  /* float: left; */
   text-align: left;
 }
 
@@ -73,6 +69,7 @@ body {
 /*general styling for body*/
 h1 {
   font-weight: bold;
+  font-size: 20px;
 }
 
 
