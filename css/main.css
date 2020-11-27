@@ -27,16 +27,19 @@ body {
 
 
 .about {
+  height: 400px;
   overflow: hidden;
   background-color: white;
   display: flex;
+  flex-direction: row;
   align-content: space-between;
-  justify-content: flex-start;
+  align-items: center;
+  /* justify-content: flex-start; */
 }
 
 .profile-imgContain{
   /* background-color: #393939; */
-  height: 500px;
+  height: 100%;
   padding: 0px;
   margin: 0;
   width: 50%;
@@ -45,9 +48,9 @@ body {
 }
 
 .profile-img {
-  height: 100%;
-  border: 5px solid white;
-  text-shadow: 0 0 3px lightgray;
+  height: 80%;
+  border: 5px solid gray;
+  text-shadow: 0 0 3px black;
   border-radius: 50%;
   display: inline-block;
   padding: 10px;
@@ -57,7 +60,7 @@ body {
 
 .profile-info{
   /* background-color: #393939; */
-  height: 500px;
+  height: 100%;
   padding: 0px;
   margin: 0;
   width: 50%;
