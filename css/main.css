@@ -38,7 +38,7 @@ body {
 
 .profile-img {
   height: 50%;
-  border: 5px solid lightgray;
+  border: 5px solid black;
   border-radius: 50%;
   display: inline-block;
   padding: 10px;
@@ -66,11 +66,15 @@ h1 {
 
 .profile-info address li i {
   display: inline-block;
-  width: 10px;
+  width: 5%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .profile-info address li p {
   display: inline-block;
+  padding: 0px;
+  margin: 0px;
 }
 /*-----------------------------------------------
 style about me section
