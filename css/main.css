@@ -44,12 +44,13 @@ body {
   text-align: right;
 }
 
-
 .profile-img {
   height: 100%;
+  border: 5px solid white;
+  text-shadow: 0 0 3px lightgray;
   border-radius: 50%;
   display: inline-block;
-  padding: 0px;
+  padding: 10px;
   margin: 0px;
 }
 
