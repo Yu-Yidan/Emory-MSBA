@@ -64,6 +64,10 @@ h1 {
   display: inline-block;
   text-align: left;
 }
+
+.profile-info address li a {
+  width: 10px;
+}
 /*-----------------------------------------------
 style about me section
 ------------------------------------------------*/
