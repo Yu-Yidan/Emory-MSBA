@@ -214,7 +214,7 @@ style project section
 } */
 
 /*skills*/
-/* .list-inline {
+.list-inline {
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
@@ -233,7 +233,7 @@ style project section
 
 .list-inline-item i:hover {
 	color: #BD5D38;
-} */
+}
 
 /*-----------------------------------------------
 style addtional info section
