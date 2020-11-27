@@ -9,7 +9,7 @@ html {
 
 body {
     background: #e9e9e9;
-    font-family: 'Roboto-Regular', sans-serif;
+    font-family: 'Courier', sans-serif;
     color: #000;
     margin: 0px;
   }
@@ -100,7 +100,7 @@ style about me section
 /*-----------------------------------------------
 style project section
 ------------------------------------------------*/
-.proj-container {
+/* .proj-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -153,10 +153,10 @@ style project section
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-}
+} */
 
 /*skills*/
-.list-inline {
+/* .list-inline {
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
@@ -175,13 +175,13 @@ style project section
 
 .list-inline-item i:hover {
 	color: #BD5D38;
-}
+} */
 
 /*-----------------------------------------------
 style addtional info section
 ------------------------------------------------*/
 
-.addinfo-img-container {
+/* .addinfo-img-container {
   position: relative;
   width: 20%;
   margin-bottom: 10px;
@@ -193,7 +193,7 @@ style addtional info section
 
 .addinfo-img-container:hover .overlay {
   opacity: 1;
-}
+} */
 
 /*-----------------------------------------------
 style contact me section
