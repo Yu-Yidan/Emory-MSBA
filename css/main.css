@@ -8,7 +8,7 @@ scroll-behavior: smooth;
 }
 
 body {
-  background: white;
+  /* background: #fbf6f0; */
   font-family: 'Segoe UI';
   color: rgb(73, 80, 87);
   margin: 0px;
@@ -28,8 +28,8 @@ align-items: stretch;
 }
 
 .profile-imgContain {
-height: 70%;
-width: 55%;
+height: 100%;
+width: 60%;
 padding: 0px;
 margin: 0px;
 margin-right: 10px;
@@ -38,23 +38,21 @@ vertical-align: middle;
 }
 
 .profile-img {
-/* height: 100%; */
+height: 100%;
 width: 100%;
-/* border: 5px solid black; */
-/* border-radius: 50%; */
-/* display: inline-block; */
 padding: 0px;
 margin: 0px;
 object-fit: cover;
+-webkit-mask-image:linear-gradient(to left, transparent 5%, black 35%);
+mask-image: linear-gradient(to left, transparent 5%, black 35%);
 }
 
 .profile-info {
 height: 100%;
-width: 45%;
+width: 40%;
 padding: 0px;
 margin: 0px;
 padding: 0px;
-padding-left: 10px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -66,6 +64,10 @@ font-weight: bold;
 font-size: 30px;
 margin: 0;
 padding: 0;
+
+-webkit-text-decoration-line: overline;
+text-decoration-line: overline;
+text-decoration-color: red;
 }
 
 .profile-info h2 {
@@ -81,7 +83,7 @@ justify-content: center;
 align-items: center;
 height: 40px;
 width: 200px;
-background-color: #495057;
+background-color: #957dad;
 color: #fff !important;
 border-radius: 5px;
 text-align: center;
@@ -90,6 +92,8 @@ font-size: 20px;
 
 margin: 0px;
 padding: 0px;
+
+transition: .3s ease;
 }
 
 .resume a:link {
@@ -97,7 +101,7 @@ text-decoration: none;
 }
 
 .resume a:hover {
-background-color: #BD5D38;
+background-color: #d291bc;
 }
 
 .resume a:visited {
@@ -161,9 +165,12 @@ margin: 0px;
 
 .education-img {
 height: 100%;
-width: 100%;
+width: 10%;
 margin: 0px;
 padding: 0px;
+border-radius: 10%;
+text-align: center;
+vertical-align: middle;
 }
 
 .education-text {
@@ -229,24 +236,35 @@ color: #BD5D38;
 work experience section
 ------------------------------------------------*/
 .work-experience {
-height: 500px;
+/* height: 500px; */
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+justify-content: space-around;
 margin: 0px;
-padding: 0px;
+padding: 10px;
 }
 
-.work-experience h1{
+.work-experience h1 {
 width: 100%;
-text-align: center
+text-align: center;
+/* margin: 0;
+padding: 0; */
+
+-webkit-text-decoration-line: overline;
+text-decoration-line: overline;
+text-decoration-color: red;
 }
 
 .work-experience-item {
-width: 33.3%;
-margin: 0px;
-padding: 0px;
+width: 320px;
+margin: 5px;
+padding: 5px;
+border-radius: 20px;
 text-align: center;
+transition: .5s ease;
+background-color: white;
+box-shadow: 0px -5px #555555, 0px 0px 5px 0px #cdc9c3;
 }
 
 .comp-img {
@@ -254,10 +272,22 @@ height: 80px;
 border-radius: 10%;
 }
 
-.comp-img:hover {
-height: 100px;
+.work-experience-item:hover {
+background-color: #fceef5;
+box-shadow: 5px 5px 5px 0px #555555;
 }
 
+.work-title {
+font-weight: bold;
+}
+
+.work-duration {
+color: lightblue;
+}
+
+.work-responsibility {
+color: gray;
+}
 /*-----------------------------------------------
 style project section
 ------------------------------------------------*/
@@ -276,6 +306,10 @@ margin: 0px;
 .additional-info h1 {
 width: 100%;
 text-align: center;
+
+-webkit-text-decoration-line: overline;
+text-decoration-line: overline;
+text-decoration-color: red;
 }
 
 .info-container {
@@ -284,7 +318,6 @@ display: flex;
 flex-flow: row wrap;
 padding: 0px;
 margin: 0px;
-/* vertical-align: middle; */
 }
 
 .info-img-container {
@@ -293,7 +326,6 @@ height: 100%;
 padding: 0px;
 margin: 0px;
 position: relative;
-/* vertical-align: middle; */
 }
 
 .info-img {
@@ -321,7 +353,6 @@ position: absolute;
 top: 0%;
 left: 0%;
 text-align: center;
-/* vertical-align: middle; */
 padding: 0px;
 margin: 0px;
 height: 100%;
@@ -359,6 +390,10 @@ style contact me section
 ------------------------------------------------*/
 .contact h1 {
 text-align: center;
+
+-webkit-text-decoration-line: overline;
+text-decoration-line: overline;
+text-decoration-color: red;
 }
 
 .address {
